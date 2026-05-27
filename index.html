@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Himanshu's biotechnology portfolio showcasing research interests, skills, projects, and achievements." />
+  <title>Himanshu | Biotechnology Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="bg-glow glow-1"></div>
+  <div class="bg-glow glow-2"></div>
+
+  <header class="hero" id="home">
+    <nav class="nav container reveal-up">
+      <h1 class="logo">Himanshu<span>Bio</span></h1>
+      <button id="menu-btn" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content container">
+      <div>
+        <p class="tag reveal-up">Bachelor in Biotechnology Student</p>
+        <h2 class="reveal-up">Transforming Curiosity into <span>Biotech Innovation</span></h2>
+        <p class="reveal-up">
+          Hi, I’m Himanshu. I’m pursuing my Bachelor’s in Biotechnology and I’m passionate about
+          molecular science, healthcare innovation, and sustainable life-science solutions that create real impact.
+        </p>
+        <div class="hero-actions reveal-up">
+          <a href="#projects" class="btn">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Let’s Connect</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal-up">
+        <img src="https://images.unsplash.com/photo-1532187643603-ba119ca4109e?auto=format&fit=crop&w=900&q=80" alt="Biotechnology laboratory setup" />
+        <div class="float-card card-a">Research • Analysis • Discovery</div>
+        <div class="float-card card-b">Future Biotechnologist</div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section container">
+      <h3 class="section-title">About Me</h3>
+      <div class="about-grid">
+        <p class="muted reveal-up">
+          I am currently building a strong foundation in molecular biology, microbiology, genetics, bioprocess principles,
+          and bioinformatics. I enjoy exploring how biotechnology can solve global challenges in healthcare, agriculture,
+          and the environment.
+        </p>
+        <div class="about-stats">
+          <article class="stat reveal-up"><h4>Focus</h4><p>Biotech R&D and translational science.</p></article>
+          <article class="stat reveal-up"><h4>Strength</h4><p>Experimental rigor and scientific communication.</p></article>
+          <article class="stat reveal-up"><h4>Goal</h4><p>Contribute to impactful life-science innovation.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <h3 class="section-title">Core Skills</h3>
+        <div class="grid cards">
+          <article class="card reveal-up"><h4>Lab Techniques</h4><p>PCR, gel electrophoresis, aseptic handling, solution prep, and culture basics.</p></article>
+          <article class="card reveal-up"><h4>Bioinformatics Basics</h4><p>Sequence alignment, database search workflows, and result interpretation.</p></article>
+          <article class="card reveal-up"><h4>Data & Reporting</h4><p>Experimental logging, statistical thinking, graphing, and scientific writing.</p></article>
+          <article class="card reveal-up"><h4>Collaboration</h4><p>Team coordination, curiosity-driven learning, and cross-disciplinary communication.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <h3 class="section-title">Featured Projects</h3>
+      <div class="grid projects">
+        <article class="project reveal-up">
+          <img src="https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=700&q=80" alt="Microbial culture plate" />
+          <div><h4>Microbial Growth Dynamics</h4><p>Compared microbial growth across nutrient and pH variations, plotting growth curves to identify optimal culture windows.</p></div>
+        </article>
+        <article class="project reveal-up">
+          <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=700&q=80" alt="Plant tissue culture" />
+          <div><h4>Plant Tissue Culture Trial</h4><p>Designed sterile tissue culture workflows and tested media combinations for improved regeneration outcomes.</p></div>
+        </article>
+        <article class="project reveal-up">
+          <img src="https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=700&q=80" alt="DNA analysis visual" />
+          <div><h4>DNA Sequence Mini Analysis</h4><p>Performed sequence comparison and annotation basics to evaluate likely matches and biological relevance.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="achievements" class="section alt">
+      <div class="container">
+        <h3 class="section-title">Learning & Achievements</h3>
+        <div class="timeline">
+          <article class="timeline-item reveal-up"><span>2024</span><h4>Biotech Foundation Building</h4><p>Strengthened core understanding in cell biology, microbiology, and genetics.</p></article>
+          <article class="timeline-item reveal-up"><span>2025</span><h4>Hands-on Laboratory Training</h4><p>Practiced routine wet-lab protocols and improved reproducibility in experiments.</p></article>
+          <article class="timeline-item reveal-up"><span>2026</span><h4>Project-led Exploration</h4><p>Applied biotech concepts through project-based learning and mini-research exercises.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <div class="contact-box reveal-up">
+        <h3>Let’s Build Something Meaningful</h3>
+        <p>I’m open to internships, research opportunities, and collaborations in biotechnology.</p>
+        <a class="btn" href="mailto:himanshu.bio@example.com">Email Himanshu</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Himanshu • Biotechnology Portfolio</p>
+  </footer>
+</body>
+</html>
